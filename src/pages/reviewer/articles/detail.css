@@ -1,0 +1,28 @@
+.detail {
+    text-align: center;
+}
+
+.header-detail {
+    background-color: rgb(249, 229, 211);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.img-detail {
+    margin: 20px;
+}
+
+.btnDanhGia {
+    margin-top: 30px;
+}
+
+.rate {
+    margin-bottom: 15px;
+}
+
+.body-detail {
+    margin: 30px;
+    text-align: justify;
+    font-size: 15px;
+}

@@ -1,0 +1,75 @@
+.search-button {
+  width: 120px;
+  background-color: #000000;
+  border: 0 solid #dbdbdb;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0.7rem 1rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+/* .search-button:hover,
+.search-button:focus {
+  background-color: rgb(245 158 11);
+  border-color: rgb(245 158 11);
+  color: #000000;
+} */
+.white-button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.name1 {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonapprove {
+  background-color: #0081c9;
+  color: #fff;
+  font-size: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 8px;
+  height: 48px;
+  width: 100px;
+}
+
+.reject {
+  background-color: #cf0a0a;
+  color: #fff;
+  font-size: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 8px;
+  height: 48px;
+  width: 100px;
+}
+
+:where(
+    .css-dev-only-do-not-override-14wwjjs
+  ).ant-badge.ant-badge-not-a-wrapper:not(.ant-badge-status) {
+  vertical-align: middle;
+  margin-top: -15px;
+  margin-left: 5px;
+}

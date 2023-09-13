@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+}
+#footer {
+    background: #192041;
+    color: #fff;
+    border-top: 10px solid #f7941d;
+    font-size: 13px;
+    padding-top: 60px;
+    font-weight: 800;
+  }
+  
+  footer > div > div:nth-child(2) h6 {
+    text-decoration: underline;
+    color: #f7941d;
+    margin: 10px 0;
+  }
+  
+  footer img {
+    height: 70px;
+  }
+  p {
+    font-weight: 600;
+  }
+
+    #footer .label {
+    font-weight: 700;
+  }
+  
